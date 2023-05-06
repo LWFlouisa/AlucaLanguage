@@ -3,7 +3,7 @@ require "naive_bayes"
 a = NaiveBayes.load('_data/language/bianca.nb') 
 
 ## Spam
-b = "BIANCA: La cabine braun es azeoir pedecise."
+b = File.read("_posts/input.md").to_s
 
 result = a.classify(b)
 
