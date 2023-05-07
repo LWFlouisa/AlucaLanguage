@@ -8,7 +8,7 @@ You can ran this form of machine learning on a thumb drive.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XKYK0KvQMXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Setting Grammatical Values
-Coming soon. Aids in training example automation.
+Set each grammar component to the value of 0-4: Gender, Noun, Adjective, Conjuction, Verb, Adverb.
 
 ## Domain Specific XML Grammar
 ~~~xml
