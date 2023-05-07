@@ -10,21 +10,6 @@ You can ran this form of machine learning on a thumb drive.
 ## Setting Grammatical Values
 Set each grammar component to the value of 0-4: Gender, Noun, Adjective, Conjuction, Verb, Adverb.
 
-## Domain Specific XML Grammar
-~~~xml
-<grammar>
-  <phrase context='BIANCA:'>
-    <gender>Le</gender>
-    <noun>maizon</noun>
-    <adjective>gris</adjective>
-    <conjunction>es</conjunction>
-    <verb>azeoir</verb>
-    <adverb>pedecise</adverb>
-    <punctuation>.</punctuation>
-  </phrase>
-</grammar> 
-~~~
-
 ## Parser Module
 Before training the examples, I use an automated text parser to create training examples.
 
@@ -174,6 +159,23 @@ module AlucaXML
     end
   end
 end
+~~~
+
+## Domain Specific XML Grammar
+The result is an automated creation of a human-like training example.
+
+~~~xml
+<grammar>
+  <phrase context='BIANCA:'>
+    <gender>Le</gender>
+    <noun>maizon</noun>
+    <adjective>gris</adjective>
+    <conjunction>es</conjunction>
+    <verb>azeoir</verb>
+    <adverb>pedecise</adverb>
+    <punctuation>.</punctuation>
+  </phrase>
+</grammar> 
 ~~~
 
 ## How The Training Set Is Constructed
