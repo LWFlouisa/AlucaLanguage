@@ -9,6 +9,11 @@
     font-family: monospace;
   }
   
+  pre {
+    color: #332F2B;
+    font-family: #969FA8;
+  }
+  
   a {
     color: #969FA8;
     font-family: monospace;
