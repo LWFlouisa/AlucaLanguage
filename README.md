@@ -174,4 +174,9 @@ end
 ~~~
 
 ## How The Training Set Is Constructed
+~~~ruby
+require 'humanist_errors'
+require "naive_bayes"
+~~~
+
 ![Training Set](https://github.com/LWFlouisa/AlucaLanguage/blob/main/assets/perimeters.png?raw=true)
