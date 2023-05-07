@@ -201,7 +201,7 @@ The result is an automated creation of a human-like training example.
 ~~~
 
 ## How The Training Set Is Constructed
-~~~ruby
+<code>
 require "naive_bayes"
 
 require 'humanist_errors'
@@ -238,7 +238,7 @@ with_human_errors do
 
   a.save
 end
-~~~
+</code>
 
 ## Take It For a Test Drive
 Once you feel confident about the code above, feel free to test drive it:
