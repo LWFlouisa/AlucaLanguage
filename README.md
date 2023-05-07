@@ -19,6 +19,8 @@
     font-family: monospace;
   }
 </style>
+<script src="/path/to/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 # AlucaLanguage
 Functions contained and limited into a module. For website style, I chose the colors of my science fiction universe, as it's set in a French and Japanese controlled version of the Rocky Mountains.
