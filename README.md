@@ -1,27 +1,3 @@
-<style>
-  body {
-    background-color: #25221F;
-    border: #57514A;
-  }
-  
-  h1, h2, h3, h4, h5, h6, p {
-    color: #969FA8;
-    font-family: monospace;
-  }
-  
-  pre code {
-    color: #332F2B;
-    font-family: #969FA8;
-  }
-  
-  a {
-    color: #969FA8;
-    font-family: monospace;
-  }
-</style>
-<script src="/path/to/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
 # AlucaLanguage
 Functions contained and limited into a module. For website style, I chose the colors of my science fiction universe, as it's set in a French and Japanese controlled version of the Rocky Mountains.
 
