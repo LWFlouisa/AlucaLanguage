@@ -1,5 +1,22 @@
+<style>
+  body {
+    background-color: #25221F;
+    border: #57514A;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    color: #969FA8;
+    font-family: monospace;
+  }
+  
+  a {
+    color: #969FA8;
+    font-family: monospace;
+  }
+</style>
+
 # AlucaLanguage
-Functions contained and limited into a module.
+Functions contained and limited into a module. For website style, I chose the colors of my science fiction universe, as it's set in a French and Japanese controlled version of the Rocky Mountains.
 
 ## Run On USB
 You can ran this form of machine learning on a thumb drive.
