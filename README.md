@@ -174,4 +174,4 @@ end
 ~~~
 
 ## How The Training Set Is Constructed
-![Training Set]()
+![Training Set](https://github.com/LWFlouisa/AlucaLanguage/blob/main/assets/perimeters.png?raw=true)
