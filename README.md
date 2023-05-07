@@ -185,3 +185,10 @@ require "naive_bayes"
 ~~~
 
 ![Training Set](https://github.com/LWFlouisa/AlucaLanguage/blob/main/assets/perimeters.png?raw=true)
+
+## Take It For a Test Drive
+Once you feel confident about the code above, feel free to test drive it:
+
+~~~sh
+git clone https://github.com/LWFlouisa/AlucaLanguage.git
+~~~
