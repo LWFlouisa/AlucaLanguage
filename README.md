@@ -9,7 +9,7 @@
     font-family: monospace;
   }
   
-  pre, backticks {
+  pre, code {
     color: #332F2B;
     font-family: #969FA8;
   }
