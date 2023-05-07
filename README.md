@@ -9,7 +9,7 @@
     font-family: monospace;
   }
   
-  pre, code {
+  pre code {
     color: #332F2B;
     font-family: #969FA8;
   }
@@ -201,8 +201,7 @@ The result is an automated creation of a human-like training example.
 ~~~
 
 ## How The Training Set Is Constructed
-<pre>
-<code>
+~~~ruby
 require "naive_bayes"
 
 require 'humanist_errors'
@@ -239,8 +238,7 @@ with_human_errors do
 
   a.save
 end
-</code>
-</pre>
+~~~
 
 ## Take It For a Test Drive
 Once you feel confident about the code above, feel free to test drive it:
