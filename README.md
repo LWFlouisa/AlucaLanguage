@@ -7,6 +7,21 @@ You can ran this form of machine learning on a thumb drive.
 ## Video Introduction
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XKYK0KvQMXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Domain Specific XML Grammar
+~~~xml
+<grammar>
+  <phrase context='BIANCA:'>
+    <gender>Le</gender>
+    <noun>maizon</noun>
+    <adjective>gris</adjective>
+    <conjunction>es</conjunction>
+    <verb>azeoir</verb>
+    <adverb>pedecise</adverb>
+    <punctuation>.</punctuation>
+  </phrase>
+</grammar> 
+~~~
+
 ## Parser Module
 Before training the examples, I use an automated text parser to create training examples.
 
