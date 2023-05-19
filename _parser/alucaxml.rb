@@ -78,29 +78,29 @@ module AlucaXML
     def self.process_data
       # Get the date.
       system("date > _date/date.txt")
-
+  
       # Immutables
       date             = File.read("_date/date.txt").strip
       date_title       = date.tr " ", "_"
-
+  
       ## Determining user data and user choice.
       value = File.read("_input/user/user_choice.txt").to_s.to_i
-
+  
       user_data   = File.readlines("_data/user/candidates.txt")
       user_choice = user_data[value]
-
+  
       ## Processing AI focused data
       ai_choice            = File.read("_data/ai/ai_choice.txt").to_s.to_i
       ai_initial_candidate = user_data[ai_choice]
       ai_search_limit      = user_data.size.to_i
-
+  
       ## Create AI data from user data.
       ai_search_limit.times do
         if ai_choice == user_choice
           puts "The specific candidate was found. Terminating selection..."
-
+  
           ai_data      = user_data.slice!(ai_choice)
-
+  
           open("_data/ai/candidates.txt", "w") { |f|
             f.puts ai_data
           }
@@ -108,7 +108,7 @@ module AlucaXML
           puts "The specific candidate is not found..."
         end
       end
-
+      
       ## AI processing data.
       ai_choice            = File.read("_data/ai/ai_choice.txt").to_s.to_i
       ai_data              = File.readlines("_data/ai/candidates.txt")
@@ -140,6 +140,21 @@ module AlucaXML
           }
         end
       end
+    end
+  end
+  
+  class NaiveBayes
+    def self.analyze_sentences
+      require "naive_bayes"
+
+      a = NaiveBayes.load('_data/language/bianca_expanded.nb') 
+
+      ## Spam
+      b = File.read("_posts/input.md").to_s
+
+      result = a.classify(b)
+
+      print "That makes #{result[0]}."
     end
   end
 end
