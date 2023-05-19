@@ -1,0 +1,13 @@
+o:NaiveBayes	:@features_count{
+:definitely_sense}
+I"0BIANCA: La cabine braun es azeoir pedecise.:ETf1I"	word;Tf4I".BIANCA: La demeure vert sont oublie vite.;T@	I"3BIANCA: Le zigner braun esa azeoir mopedecise.;T@	I"/BIANCA: Le maizon gris es azeoir pedecise.;T@	f0:likely_sense}I"0BIANCA: Azeoir pedecide es le cabine braun.;T@	@
+f5I".BIANCA: Oublie vite sont la demeure vert.;T@	I"3BIANCA: Azeoir mopedecise esa le zigner braun.;T@	I"/BIANCA: Azeoir pedecise es le maizon gris.;T@	I".BIANCA: La oublie demeure sont vite vert.;T@	@:ambiguous_sense}I"(La braun cabine es azeoir pedecise.;T@	@
+@I"(Cabine es braun la pedecise aseoir.;T@	I"&La vert demeure sont oublie vite.;T@	I"+Le braun zigner esa azeoir mopedecise.;T@	I"'Le gris maizon es azeoir pedecise.;T@	@:likely_nonsense}
+I"(La aseoir cabine es pedecise braun.;T@	@
+@I"'Vert la demeure oublier sont vite.;T@	I"+Brain le zigner esa azeoir mopedecise.;T@	I"'Gris le maizon es azeoir pedecise.;T@	@:definitely_nonsense}
+I"(Es cabine braun la pedecise aseoir.;T@	@
+@I"'Oublier sont vite vert la demeure.;T@	@ @	@!@	@:@klass_count{
+;@;	@;
+@;@;@:@klasses[
+;;	;
+;;:@db_filepathI"&_data/language/bianca_expanded.nb;T
